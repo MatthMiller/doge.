@@ -1,0 +1,211 @@
+.header-bg {
+    background-color: #140E00;
+    box-shadow: 0px 2px 3px 0px rgba(53, 38, 0, 0.20);
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    flex: 1;
+    max-width: 1300px;
+    padding: 10px 0px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bg .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-bg .logo-image {
+    height: 70px;
+    width: 70px;
+}
+
+.header-bg .logo-title {
+    color: #FFBB11;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1;
+    letter-spacing: -0.72px;
+}
+
+.header-bg .header-right {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.header-bg .nav {
+    display: flex;
+    gap: 32px;
+}
+
+.header-bg .nav-link {
+    place-self: center;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 0px;
+
+    color: #FFF9EA;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 400;
+
+    font-size: 1rem;
+    line-height: 1;
+    transition: 150ms;
+}
+
+.header-bg .nav-link svg path { transition: 150ms; }
+
+.header-bg .header .nav-link:hover { color: #FFBB11; }
+.header-bg .header .nav-link:hover svg path { fill: #FFBB11; }
+
+.header-bg .price-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 7px 11px;
+    border: 1px solid #4D390B;
+    border-radius: 5px;
+    background-color: #362808;
+    user-select: none;
+    cursor: pointer;
+    transition: 150ms;
+}
+
+.header-bg .price-container:hover {
+    border-color: #FFBB11;
+    box-shadow: 0 0 0 2px rgba(255, 245, 221, 0.50);
+}
+
+.header-bg .dogecoin-icon {
+    height: 32px;
+    width: 32px;
+}
+
+.header-bg .value {
+    font-size: 1.25rem;
+    line-height: 1;
+    color: #FFF9EA;
+    
+    letter-spacing: 0.2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 600;
+}
+
+.header-bg .value span {
+    font-weight: 400;
+    font-variation-settings: "wdth" 600;
+}
+
+@media (max-width: 1150px) {
+    .header .header-right {
+        gap: 36px;
+    }
+
+    /* .menu-mobile foi declarado la embaixo */
+    .menu-mobile {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+/* Menu mobile */
+.header-bg .menu-hamburger-button {
+    display: none;
+
+    padding: 6px;
+    background-color: #FFCF60;
+    transition: 150ms;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+    place-self: center;
+}
+
+.header-bg .menu-hamburger-button:hover {
+    background-color: #DA9E07;
+}
+
+/* Inativo por padrão */
+.header-bg .menu-mobile {
+    display: none;
+
+    background-color: #FFF2D4;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+/* Ativo */
+.header-bg .menu-mobile.active {    
+    display: flex;
+
+}
+
+.header-bg .menu-mobile .nav {
+    gap: 16px;
+    width: 100%;
+    /* justify-content: space-between; */
+}
+
+.header-bg .menu-mobile .nav-link {
+    border-radius: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    place-self: inherit;
+    
+    background-color: #FFE8B2;
+    color: #140E00;
+    flex: 1;
+    justify-content: center;
+}
+
+.header-bg .menu-mobile .nav-link:hover {
+    background-color: #EBCE8B;
+}
+
+.header-bg .menu-mobile .price-container {
+    flex: 1;
+    justify-content: center;
+}
+
+
+.menu-mobile path { fill: #140E00; }
+
+@media (max-width: 700px) {
+    .header-bg .menu-hamburger-button {
+        display: flex;
+    }
+
+    .header-bg {
+        flex-direction: column;
+    }
+
+    .header .header-right {
+        display: none;
+    }
+}
+
+/* Responsivo */
+
+@media (max-width: 550px) {
+    .menu-mobile {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

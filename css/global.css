@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Open+Sans:wdth,wght@75..100,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Comic Neue', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #FFF5DD;
+    color: #FFF9EA;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0px;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+button,
+input {
+    display: block;
+}
+
+button {
+    all: unset;
+    box-sizing: border-box;
+}
+
+select {
+    /* Necessário */
+    appearance: none;
+    outline: none;
+
+    /* Adicional */
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #121212;                            
+}
+                                                                     

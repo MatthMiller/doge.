@@ -1,0 +1,18 @@
+.utils-responsive-margins {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+@media (max-width: 1150px) {
+    .utils-responsive-margins {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 550px) {
+    .utils-responsive-margins {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

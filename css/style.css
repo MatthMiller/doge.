@@ -1,0 +1,15 @@
+/* Partes do site */
+@import './global.css';
+@import './header.css';
+@import './hero.css';
+@import './introduction.css';
+@import './products.css';
+@import './memes.css';
+@import './footer.css';
+
+/* Utils/Auxiliares/Outros */
+@import './utils/responsive-margins.css';
+@import './utils/buttons.css';
+@import './utils/main-container.css';
+@import './utils/section-title.css';
+

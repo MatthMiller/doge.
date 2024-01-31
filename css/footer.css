@@ -1,0 +1,11 @@
+.footer-copy {
+    font-size: 18px;
+    line-height: 1;
+    padding: 12px 10px;
+    text-align: center;
+    background-color: #140E00;
+}
+
+.footer-copy span {
+    color: #FFBB11;
+}

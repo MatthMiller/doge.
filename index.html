@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>doge.</title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="header-bg">
+    <header class="header utils-responsive-margins">
+      <a href="/" class="logo-container">
+        <img src="./images/logo-image.png" class="logo-image" alt="Doge">
+        <h1 class="logo-title">doge.</h1>
+      </a>
+
+      <div class="header-right">
+        <nav class="nav">
+          <a class="nav-link" href="">
+            <p>Página Inicial</p>
+          </a>
+          <a class="nav-link" href="https://knowyourmeme.com/memes/doge" target="_blank">
+            <p>Wiki</p>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="current" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.3077 20.5C4.80257 20.5 4.375 20.325 4.025 19.975C3.675 19.625 3.5 19.1974 3.5 18.6923V5.3077C3.5 4.80257 3.675 4.375 4.025 4.025C4.375 3.675 4.80257 3.5 5.3077 3.5H11.6153V4.99998H5.3077C5.23077 4.99998 5.16024 5.03203 5.09612 5.09613C5.03202 5.16024 4.99997 5.23077 4.99997 5.3077V18.6923C4.99997 18.7692 5.03202 18.8397 5.09612 18.9038C5.16024 18.9679 5.23077 19 5.3077 19H18.6922C18.7692 19 18.8397 18.9679 18.9038 18.9038C18.9679 18.8397 19 18.7692 19 18.6923V12.3846H20.5V18.6923C20.5 19.1974 20.325 19.625 19.975 19.975C19.625 20.325 19.1974 20.5 18.6922 20.5H5.3077ZM9.7192 15.3346L8.66538 14.2808L17.9461 4.99998H14V3.5H20.5V9.99998H19V6.0538L9.7192 15.3346Z" fill="#FFF9EA" />
+            </svg>
+          </a>
+        </nav>
+
+        <a target="_blank" href="https://www.binance.com/pt-BR/trade/DOGE_BRL" class="price-container">
+          <img class="dogecoin-icon" src="./images/icones/dogecoin-icon.png" alt="Dogecoin">
+          <p class="value">R$ <span id="js-dogecoin-value">0,00</span></p>
+        </a>
+      </div>
+
+      <div id="js-hamburger-button" class="menu-hamburger-button">
+        <img src="./images/icones/hamburger-menu.svg" alt="Menu Hambúrguer">
+      </div>
+    </header>
+
+    <div id="js-menu-mobile" class="menu-mobile">
+      <nav class="nav">
+        <a class="nav-link" href="">
+          <p>Página Inicial</p>
+        </a>
+        <a class="nav-link" href="https://knowyourmeme.com/memes/doge" target="_blank">
+          <p>Wiki</p>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="current" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.3077 20.5C4.80257 20.5 4.375 20.325 4.025 19.975C3.675 19.625 3.5 19.1974 3.5 18.6923V5.3077C3.5 4.80257 3.675 4.375 4.025 4.025C4.375 3.675 4.80257 3.5 5.3077 3.5H11.6153V4.99998H5.3077C5.23077 4.99998 5.16024 5.03203 5.09612 5.09613C5.03202 5.16024 4.99997 5.23077 4.99997 5.3077V18.6923C4.99997 18.7692 5.03202 18.8397 5.09612 18.9038C5.16024 18.9679 5.23077 19 5.3077 19H18.6922C18.7692 19 18.8397 18.9679 18.9038 18.9038C18.9679 18.8397 19 18.7692 19 18.6923V12.3846H20.5V18.6923C20.5 19.1974 20.325 19.625 19.975 19.975C19.625 20.325 19.1974 20.5 18.6922 20.5H5.3077ZM9.7192 15.3346L8.66538 14.2808L17.9461 4.99998H14V3.5H20.5V9.99998H19V6.0538L9.7192 15.3346Z" fill="#FFF9EA" />
+          </svg>
+        </a>
+      </nav>
+
+      <a target="_blank" href="https://www.binance.com/pt-BR/trade/DOGE_BRL" class="price-container">
+        <img class="dogecoin-icon" src="./images/icones/dogecoin-icon.png" alt="Dogecoin">
+        <p class="value">R$ <span id="js-dogecoin-value">0,00</span></p>
+      </a>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="container utils-responsive-margins">
+      <h1 class="title">Tudo que você precisa saber
+        sobre <span>doge.</span></h1>
+      <div class="buttons-container">
+        <a class="utils-filled-button" href="#products">
+          <img src="./images/icones/cart.svg" alt="Ícone carrinho">
+          <p>ver produtos</p>
+        </a>
+        <a class="utils-ghost-button" href="https://pt.wikipedia.org/wiki/Dogecoin" target="_blank">
+          <p>o que é dogecoin?</p>
+        </a>
+      </div>
+    </div>
+    <img class="bg-image" src="./images/hero-background.jpg"></img>
+    <div class="bg-shadow"></div>
+  </section>
+
+  <main class="utils-main-container">
+    <section class="introduction">
+      <h2 class="utils-section-title utils-responsive-margins">quem é <span>o cachorrinho amarelo?</span></h2>
+      <div class="container">
+        <div class="left">
+          <p class="paragraph">
+            Doge é uma gíria para "cachorro" que está principalmente associada a fotos de Shiba Inus. Essas fotos podem ser photoshopadas para mudar o rosto do cachorro ou legendadas com monólogos internos na fonte Comic Sans.
+          </p>
+          <p class="paragraph">
+            O principal meme e iconografia associada ao Doge é o Shiba Inu chamado Kabosu, cujas fotos tiradas por sua proprietária, Atsuko Sato, no início de 2010, se tornaram virais na Internet, gerando vários memes. A partir de 2017, os formatos do Ironic Doge ganharam prevalência sobre a versão original à medida que o personagem memético continuava a evoluir.
+          </p>
+          <p class="fonte">
+            Fonte: <a class="link" target="_blank" href="https://knowyourmeme.com/memes/doge">https://knowyourmeme.com/memes/doge</a>
+          </p>
+        </div>
+        <img class="image" src="./images/doge-introduction.png" alt="Doge">
+      </div>
+    </section>
+
+    <section id="products" class="products utils-responsive-margins">
+      <h2 class="utils-section-title utils-responsive-margins">quem é <span>o cachorrinho amarelo?</span></h2>
+      <ul class="products-list">
+        <li class="product">
+          <div class="image-container">
+            <img class="image" src="./images/products/product-1.png" alt="Camiseta Doge">
+          </div>
+          <div class="info">
+            <div class="left">
+              <p class="name">Camiseta doge de natal</p>
+              <p class="price"><span>Đ</span> 70,00</p>
+            </div>
+            <button class="buy">
+              <img src="./images/icones/add-to-cart.svg">
+            </button>
+          </div>
+          </div>
+        </li>
+        <li class="product">
+          <div class="image-container">
+            <img class="image" src="./images/products/product-2.png" alt="Camiseta Doge">
+          </div>
+          <div class="info">
+            <div class="left">
+              <p class="name">Camiseta doge de natal</p>
+              <p class="price"><span>Đ</span> 70,00</p>
+            </div>
+            <button class="buy">
+              <img src="./images/icones/add-to-cart.svg">
+            </button>
+          </div>
+          </div>
+        </li>
+        <li class="product">
+          <div class="image-container">
+            <img class="image" src="./images/products/product-3.png" alt="Camiseta Doge">
+          </div>
+          <div class="info">
+            <div class="left">
+              <p class="name">Camiseta doge de natal</p>
+              <p class="price"><span>Đ</span> 70,00</p>
+            </div>
+            <button class="buy">
+              <img src="./images/icones/add-to-cart.svg">
+            </button>
+          </div>
+          </div>
+        </li>
+        <li class="product">
+          <div class="image-container">
+            <img class="image" src="./images/products/product-4.png" alt="Camiseta Doge">
+          </div>
+          <div class="info">
+            <div class="left">
+              <p class="name">Camiseta doge de natal</p>
+              <p class="price"><span>Đ</span> 70,00</p>
+            </div>
+            <button class="buy">
+              <img src="./images/icones/add-to-cart.svg">
+            </button>
+          </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="memes" class="memes utils-responsive-margins">
+      <h2 class="utils-section-title utils-responsive-margins">alguns <span>memes</span></h2>
+      <div class="container">
+        <div class="tabs" id="js-tabs"></div>
+        <div class="meme-container" id="js-meme-container"></div>
+        <div class="content"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-copy">2024 <span>doge.</span> | nenhum direito reservado.</footer>
+
+  <script src="./scripts/openMenuMobile.js"></script>
+  <script src="./scripts/getDogecoinPrice.js"></script>
+  <script src="./scripts/memeTabs.js"></script>
+</body>
+
+</html>

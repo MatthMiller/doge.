@@ -1,0 +1,91 @@
+.memes .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 672px;
+    margin: 0 auto;
+}
+
+.memes .tabs {
+    display: flex;
+    place-self: flex-start;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.memes .tab,
+.memes .meme-container {
+    border: 1px solid #140E00;
+    background-color: #FFF2D4;
+    border-radius: 8px;
+}
+
+.memes .tab {
+    height: 48px;
+    width: 48px;
+    display: grid;
+    place-content: center;
+    
+    background-color: #FFF2D4;
+    color: #140E00;
+    font-size: 1.625rem;
+    line-height: 1;
+    font-weight: 700;
+    
+    transition: 100ms;
+    user-select: none;
+    cursor: pointer;
+}
+
+.memes .tab:hover {
+    background-color: #FFE8B2;
+}
+
+.memes .meme-container {
+    flex: 1;
+    width: 100%;
+    /* height: 436px; */
+    padding: 16px 32px;
+    display: flex;
+    place-content: center;
+}
+
+.memes .image-container {
+    max-height: 100%;
+    max-width: 400px;
+    place-items: center;
+
+    /* Inicia fora da tela */
+    display: none;
+}
+
+.memes .image-container.active {
+    /* Imagem fica visível */
+    display: flex;
+}
+
+.memes .tab.active {
+    background-color: #FFCF60;
+}
+
+.memes .meme {
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    height: max-content;
+
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px 0px rgba(53, 38, 0, 0.20);
+}
+
+@media (max-width: 550px) {
+    .memes .tab {
+        font-size: 21px;
+        height: 36px;
+        width: 36px;
+        border-radius: 5px;
+    }
+
+    .memes .meme-container {
+        padding: 8px;
+    }
+}

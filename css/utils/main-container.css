@@ -1,0 +1,8 @@
+.utils-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+
+    margin-top: 96px;
+    margin-bottom: 96px;
+}

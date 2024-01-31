@@ -6,3 +6,9 @@
     margin-top: 96px;
     margin-bottom: 96px;
 }
+
+@media (max-width: 550px) {
+    .utils-main-container { 
+        gap: 120px
+    }
+}

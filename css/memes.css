@@ -43,7 +43,8 @@
 .memes .meme-container {
     flex: 1;
     width: 100%;
-    /* height: 436px; */
+    min-height: 436px;
+    max-height: 436px;
     padding: 16px 32px;
     display: flex;
     place-content: center;
@@ -52,7 +53,8 @@
 .memes .image-container {
     max-height: 100%;
     max-width: 400px;
-    place-items: center;
+    align-items: center;
+    justify-content: center;
 
     /* Inicia fora da tela */
     display: none;

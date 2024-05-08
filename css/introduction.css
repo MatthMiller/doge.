@@ -8,7 +8,6 @@
 .introduction .container {
     flex: 1;
     max-width: 1300px;
-    margin: 0 70px;
     gap: 104px;
     display: grid;
     grid-template-columns: 709fr 489fr;
@@ -67,13 +66,6 @@
     }
 }
 
-@media (max-width: 1150px) {
-    .introduction .container {
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-}
-
 @media (max-width: 890px) {
     .introduction .container {
         grid-template-columns: 1fr;
@@ -97,10 +89,5 @@
     .introduction .fonte {
         font-size: 1rem;
         line-height: 1.5rem;
-    }
-
-    .introduction .container {
-        margin-left: 10px;
-        margin-right: 10px;
     }
 }
